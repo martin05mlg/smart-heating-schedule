@@ -25,10 +25,11 @@ It is vendor agnostic: it works with Tado, Netatmo, Zigbee/Z-Wave radiator valve
 
 ### HACS (recommended)
 
-1. In HACS, open the menu (⋮) → **Custom repositories**.
-2. Add `https://github.com/talhaucar/smart-heating-schedule` with type **Integration**.
-3. Install **Smart Heating Schedule** and restart Home Assistant.
-4. Go to **Settings → Devices & services → Add integration** and pick **Smart Heating Schedule**.
+1. Open HACS and search for **Smart Heating Schedule**.
+2. Download it and restart Home Assistant.
+3. Go to **Settings → Devices & services → Add integration** and pick **Smart Heating Schedule**.
+
+If it doesn't show up in the search, add it as a custom repository instead: in HACS, open the menu (⋮) → **Custom repositories**, add `https://github.com/talhaucar/smart-heating-schedule` with type **Integration**, then continue from step 2.
 
 ### Manual
 
